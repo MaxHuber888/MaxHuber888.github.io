@@ -27,7 +27,7 @@ const CONFIG = {
         // Properties for manually specifying projects
         projects: [
           'blorm-network/ZerePy', 
-          'MaxHuber888/prompted-stem-sep',
+          'MaxHuber888/TextStemSep',
           'MaxHuber888/DeepSquid',
           'MaxHuber888/TruCanvas',
           'MaxHuber888/MindReader-Quantum'
@@ -170,11 +170,11 @@ const CONFIG = {
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'dracula',
+    defaultTheme: 'dim',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
