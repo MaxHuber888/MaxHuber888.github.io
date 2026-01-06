@@ -30,7 +30,7 @@ const CONFIG = {
           'MaxHuber888/prompted-stem-sep',
           'MaxHuber888/DeepSquid',
           'MaxHuber888/TruCanvas',
-          'MaxHuber888/MindReader-Quantum',
+          'MaxHuber888/MindReader-Quantum'
         ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
