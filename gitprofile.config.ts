@@ -57,7 +57,7 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Max Huber', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of Max Huber', description: '', imageURL: 'https://maxhuber.vercel.app/og.png' },
   social: {
     linkedin: 'max-huber888',
     x: 'maxhuber888',
@@ -126,16 +126,16 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Northeastern University',
+      degree: 'M.S. in AI',
+      from: '2024',
+      to: '2026',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Northeastern University',
+      degree: 'B.S. in Computer Science, concentration in AI',
+      from: '2020',
+      to: '2024',
     },
   ],
   publications: [
@@ -170,7 +170,7 @@ const CONFIG = {
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'dim',
+    defaultTheme: 'business',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
