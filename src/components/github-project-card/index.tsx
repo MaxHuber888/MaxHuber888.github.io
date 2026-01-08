@@ -118,9 +118,9 @@ const GithubProjectCard = ({
               <span className="flex items-center">
                 <div
                   className="w-3 h-3 rounded-full mr-1 opacity-60"
-                  style={{ backgroundColor: getLanguageColor(item.language) }}
+                  style={{ backgroundColor: getLanguageColor(item.language  ?? 'Python') }}
                 />
-                <span>{item.language}</span>
+                <span>{item.language  ?? 'Python'}</span>
               </span>
             </div>
           </div>
