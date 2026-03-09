@@ -1,92 +1,151 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
-  social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
-  },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
-  projects: [
-    {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-  ],
-  experience: [
-    {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
-  education: [
-    {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
-  ],
+	name: "Max Huber",
+	title:
+		"Full Stack Developer & AI Engineer | Computer Science/AI Student at Northeastern University",
+	description: "Max Huber's Portfolio",
+	accentColor: "#00A99D",
+	social: {
+		email: "huber.maxi@northeastern.edu",
+		linkedin: "https://linkedin.com/in/max-huber888",
+		twitter: "https://x.com/maxhuber888",
+		github: "https://github.com/MaxHuber888",
+	},
+	aboutMe:
+		"I am an AI/ML engineer focused on building systems with clear real-world impact. My work is guided by a simple principle: effective AI should make people's lives tangibly better. I'm currently completing a Master's degree in AI and researching applications of AI in neuroscience at the Movement Neuroscience Lab at Northeastern University.",
+	skills: [
+		"Python",
+		"C++",
+		"Java",
+		"SQL",
+		"JavaScript",
+		"TypeScript",
+		"TensorFlow",
+		"PyTorch",
+		"OpenCV",
+		"LangChain",
+		"LangGraph",
+		"LlamaIndex",
+		"NLTK",
+		"GitHub",
+		"Conda",
+		"Poetry",
+		"Redis",
+		"GCP (Cloud Storage, BigQuery, Firebase)",
+		"Apache Airflow",
+	],
+	projects: [
+		{
+			name: "DeepSquid",
+			description:
+				"Deep learning model for analyzing squid behavior in video data",
+			githubLink: "https://github.com/MaxHuber888/DeepSquid",
+			mediumLink:
+				"https://medium.com/@huber.max888/denoising-fluorescence-microscopy-images-with-diffusion-a04f1071e895",
+			skills: ["Python", "PyTorch", "OpenCV"],
+		},
+		{
+			name: "TruCanvas",
+			description: "Interactive canvas application for digital art creation",
+			githubLink: "https://github.com/MaxHuber888/TruCanvas",
+			skills: ["JavaScript", "TypeScript", "HTML/CSS"],
+		},
+		{
+			name: "MindReader-Quantum",
+			description: "Quantum computing project for reading mind states",
+			githubLink: "https://github.com/MaxHuber888/MindReader-Quantum",
+			skills: ["Python", "Quantum Computing"],
+		},
+		{
+			name: "TextStemSep",
+			description: "Text stemming and separation toolkit",
+			githubLink: "https://github.com/MaxHuber888/TextStemSep",
+			skills: ["Python", "NLTK"],
+		},
+		{
+			name: "ZerePy",
+			description: "AI agent framework for automation",
+			githubLink: "https://github.com/blorm-network/ZerePy",
+			skills: ["Python", "LangChain", "LangGraph"],
+		},
+	],
+	experience: [
+		{
+			company: "Northeastern University, Movement Neuroscience Lab",
+			title: "Graduate Research Assistant",
+			dateRange: "Mar 2025 - Present",
+			bullets: [
+				"Researching applications of AI in neuroscience",
+				"Building machine learning models for analyzing movement data",
+				"Working with fluorescent microscopy imaging analysis",
+			],
+		},
+		{
+			company: "Blorm",
+			title: "AI/ML Engineer",
+			dateRange: "Nov 2024 - Mar 2025",
+			bullets: [
+				"Developed AI/ML solutions for social media analytics",
+				"Built natural language processing pipelines",
+				"Implemented LangChain and LangGraph agent systems",
+			],
+		},
+		{
+			company: "CollX",
+			title: "Full Stack Developer",
+			dateRange: "Mar 2023 - Dec 2023",
+			bullets: [
+				"Built and maintained full-stack web applications",
+				"Implemented real-time features using modern JavaScript frameworks",
+				"Worked with cloud infrastructure and databases",
+			],
+		},
+		{
+			company: "University of Perugia, Business & Collective Intelligence Lab",
+			title: "ML Research Assistant",
+			dateRange: "Sep 2022 - Dec 2022",
+			bullets: [
+				"Conducted machine learning research",
+				"Analyzed large-scale data sets",
+				"Published research findings",
+			],
+		},
+		{
+			company: "Sinepuxent Group",
+			title: "Web Developer Intern",
+			dateRange: "Jun 2020 - Aug 2020",
+			bullets: [
+				"Developed web applications for clients",
+				"Learned modern web development practices",
+			],
+		},
+		{
+			company: "BMW Group",
+			title: "Software Developer Intern",
+			dateRange: "Jul 2018",
+			bullets: [
+				"Software development in automotive systems",
+				"Learned enterprise software development practices",
+			],
+		},
+	],
+	education: [
+		{
+			school: "Northeastern University",
+			degree: "M.S. in AI",
+			dateRange: "2024 - 2026",
+			achievements: [
+				"Graduate student in Artificial Intelligence",
+				"Research focus on machine learning applications",
+			],
+		},
+		{
+			school: "Northeastern University",
+			degree: "B.S. in Computer Science, concentration in AI",
+			dateRange: "2020 - 2024",
+			achievements: [
+				"Graduated with honors",
+				"Concentration in Artificial Intelligence",
+			],
+		},
+	],
 };
