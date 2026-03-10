@@ -2,8 +2,15 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+@font-face {
+	font-family: "Geist Pixel";
+	src: url("/fonts/geist-font-1.8.0/fonts/GeistPixel/webfonts/GeistPixel-Square.woff2") format("woff2");
+	font-weight: 500;
+	font-display: swap;
+}
+
 body {
-	font-family: "Monocraft", monospace;
+	font-family: "Geist Pixel", monospace;
 }
 
 /* Fixed background image - visible edge to edge regardless of scroll */
