@@ -40,6 +40,7 @@ export const siteConfig = {
 			description:
 				"Open-source autonomous LLM agent framework with decision context tracking and multi-step workflow execution. 500+ GitHub stars.",
 			githubLink: "https://github.com/blorm-network/ZerePy",
+			image: "/images/projects/Zerepy.png",
 			skills: ["Python", "LangChain", "LangGraph"],
 		},
 		{
@@ -48,6 +49,7 @@ export const siteConfig = {
 				"Text-conditioned audio stem separation model extending HT-Demucs with CLAP-driven cross-modal attention.",
 			githubLink: "https://github.com/MaxHuber888/TextStemSep",
 			demoLink: "https://huggingface.co/spaces/jacob1576/AudioTextHTDemucs",
+			image: "/images/projects/TextStemSep.png",
 			skills: ["Python", "PyTorch", "CLAP", "Transformers"],
 		},
 		{
@@ -56,14 +58,16 @@ export const siteConfig = {
 				"Mid-level fusion CNN classifying surficial geology from multimodal remote sensing data (RGB, NIR, DEM) for flood risk assessment.",
 			mediumLink:
 				"https://medium.com/@huber.max888/surficial-geology-mapping-from-multimodal-data-c8c2ea783279",
-			skills: ["Python", "PyTorch", "Remote Sensing"],
+			image: "/images/projects/GeoSurfMap.png",
+			skills: ["Python", "PyTorch", "Multimodal", "CNN"],
 		},
 		{
 			name: "DeepSquid",
 			description:
 				"Deepfake video classification RNN using a pretrained time-distributed MesoNet feature extractor with LSTM layers.",
 			githubLink: "https://github.com/MaxHuber888/DeepSquid",
-			skills: ["Python", "PyTorch", "OpenCV"],
+			image: "/images/projects/DeepSquid.png",
+			skills: ["Python", "TensorFlow", "OpenCV"],
 		},
 	],
 	experience: [
