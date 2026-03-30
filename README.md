@@ -16,7 +16,7 @@ I am an AI/ML engineer focused on building systems with clear real-world impact.
 
 🐦 **Twitter:** [@maxhuber888](https://twitter.com/MaxHuber888)
 
-📄 **Resume:** [View PDF](https://maxhuber.vercel.app/files/resume.pdf)
+📄 **Resume:** [View PDF](public/resume.pdf)
 
 <!--
 **MaxHuber888/MaxHuber888** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
