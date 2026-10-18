@@ -1,0 +1,18 @@
+{
+	"fetchedAt": "2026-10-18T21:53:07.210Z",
+	"feed": "https://maxhuber888.substack.com/feed",
+	"posts": [
+		{
+			"title": "Deep Multimodal Fusion for Surficial Geology Mapping",
+			"link": "https://maxhuber888.substack.com/p/deep-multimodal-fusion-for-surficial",
+			"pubDate": "2026-08-03T06:19:33.000Z",
+			"summary": "Building a mid-level fusion classifier CNN for surficial geology mapping"
+		},
+		{
+			"title": "Denoising Microscopy with Diffusion",
+			"link": "https://maxhuber888.substack.com/p/denoising-microscopy-with-diffusion",
+			"pubDate": "2026-08-03T06:13:43.000Z",
+			"summary": "A comparison of deep-learning approaches to denoising fluorescence microscope images"
+		}
+	]
+}

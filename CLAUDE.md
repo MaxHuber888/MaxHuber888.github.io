@@ -59,6 +59,7 @@ src/
 | Add a shadcn-svelte component       | `pnpm dlx shadcn-svelte@latest add <name> -y`                   |
 | Change theme tokens (colors/radius) | `src/routes/layout.css` (`:root` and `.dark`)                   |
 | Wire up the Substack feed           | Set `PUBLIC_SUBSTACK_FEED` in `.env` (see `.env.example`)       |
+| Publish a new Substack post         | `pnpm sync-posts`, commit `src/data/substack-posts.json`, push  |
 
 ## Hard constraints (please respect)
 
@@ -80,6 +81,8 @@ src/
   `MaxHuber888/MaxHuber888.github.io`, branch `main`, Pages source = GitHub Actions).
 - `.github/workflows/deploy.yml` builds with pnpm on every push to `main` and deploys
   `build/`. `BASE_PATH` stays unset. `PUBLIC_SUBSTACK_FEED` comes from a repo variable.
+- Substack returns 403 to GitHub runners, so the blog page falls back to the committed
+  snapshot `src/data/substack-posts.json`. Run `pnpm sync-posts` locally after each new post.
 - This repo lives at `Portfolio/site/` inside the portfolio harness (see `../CLAUDE.md`).
   The harness's `content/` library is reference material only; nothing is synced in.
 
