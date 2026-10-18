@@ -16,8 +16,8 @@
 			people's lives tangibly better.
 		</p>
 		<p>
-			I recently completed a Master's degree in AI at Northeastern University, where I also did
-			computational neuroscience research at the Movement Neuroscience Lab, modeling muscle
+			I completed my Master's degree in AI at Northeastern University in April 2026, where I also
+			did computational neuroscience research at the Movement Neuroscience Lab, modeling muscle
 			synergies with network-theoretic methods to improve stroke recovery outcomes. Before that I
 			built an open-source LLM agent framework at Blorm, an LLM-powered RAG chatbot and ETL
 			pipelines as a full-stack co-op at CollX, and NLP and network analysis tooling as a research
