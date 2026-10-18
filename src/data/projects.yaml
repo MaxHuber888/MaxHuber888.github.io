@@ -1,0 +1,126 @@
+# Edit this file to add or update projects on the /projects page.
+# Schema lives in src/lib/projects.ts (zod-validated at build time).
+# Allowed colors: slate, blue, green, amber, red, purple, pink, orange, teal
+# Allowed statuses: active, shipped, archived, experiment
+
+# AI/ML Projects
+- id: zerepy
+  title: ZerePy
+  subtitle: Open-source LLM agent framework
+  description: An open-source Python framework for launching LLM-powered agents on X (formerly Twitter), powered by OpenAI or Anthropic. Features blockchain actions and over 500 stars.
+  color: purple
+  date: '2024-12-19'
+  status: archived
+  tech: [Python, OpenAI, Anthropic, LangGraph, Blockchain]
+  links:
+    - { label: GitHub, href: https://github.com/blorm-network/ZerePy }
+    - { label: Replit, href: https://replit.com/@blormdev/ZerePy?v=1 }
+
+- id: deepsquid
+  title: DeepSquid
+  subtitle: Deepfake detection RNN
+  description: Custom deepfake detection RNN for YouTube videos with a Gradio web demo. Model achieved 100% validation accuracy during training.
+  color: teal
+  date: '2024-04-25'
+  status: archived
+  tech: [Python, TensorFlow, Keras, OpenCV, Gradio]
+  links:
+    - { label: GitHub, href: https://github.com/MaxHuber888/DeepSquid }
+    - { label: Gradio Demo, href: https://huggingface.co/spaces/maxhuber/deepsquid }
+
+- id: textstemsep
+  title: TextStemSep
+  subtitle: Audio stem separation model
+  description: Text-conditioned audio stem separation model extending HT-Demucs with CLAP-driven cross-modal attention.
+  color: teal
+  date: '2025-12-01'
+  status: archived
+  tech: [Python, PyTorch, CLAP, Transformers]
+  links:
+    - { label: GitHub, href: https://github.com/MaxHuber888/TextStemSep }
+    - { label: Demo, href: https://huggingface.co/spaces/jacob1576/AudioTextHTDemucs }
+
+- id: mindreader-quantum
+  title: MindReader Quantum
+  subtitle: Hybrid quantum/classical CNN for dementia detection
+  description: Hybrid Classical-to-Quantum Neural Network for detecting dementia severity from brain MRI scans. Part of 2023 MIT iQuHack hackathon submission.
+  color: purple
+  date: '2023-04-08'
+  status: archived
+  tech: [Python, PyTorch, Pennylane, Quantum Computing, CNN]
+  links:
+    - { label: GitHub, href: https://github.com/MaxHuber888/MindReader-Quantum }
+    - { label: Gradio Demo, href: https://huggingface.co/spaces/maxhuber/MindReader-Quantum }
+
+- id: chunk-splitting-problem
+  title: The Chunk Splitting Problem
+  subtitle: RAG indexing analysis
+  description: Comparative analysis of RAG indexing methods (Rule-Based, Semantic Chunking, Slide Retrieval) with a novel Neural Network Estimation Retrieval (NNER) method.
+  color: orange
+  date: '2024-04-08'
+  status: archived
+  tech: [Python, LlamaIndex, NLTK, PyTorch, RAG]
+  links:
+    - { label: GitHub, href: https://github.com/MaxHuber888/comparative-indexing-analysis }
+
+- id: geosurfmap
+  title: GeoSurfMap
+  subtitle: Geology classification CNN
+  description: Mid-level fusion CNN classifying surficial geology from multimodal remote sensing data (RGB, NIR, DEM) for flood risk assessment.
+  color: orange
+  date: '2025-12-01'
+  status: archived
+  tech: [Python, PyTorch, CNN, Remote Sensing]
+  links:
+    - {
+        label: Medium,
+        href: https://medium.com/@huber.max888/surficial-geology-mapping-from-multimodal-data-c8c2ea783279
+      }
+
+# Coding Projects
+- id: kovoka
+  title: Kovoka
+  subtitle: Mindfulness Android app with AI
+  description: Mindfulness Android app for creating, collecting, and listening to guided meditations. Features AI-generated transcripts and voiceovers, notifications, and theme customization.
+  color: green
+  date: '2024-07-12'
+  status: archived
+  tech: [Java, Android SDK, Firebase, OpenAI API]
+  links:
+    - { label: GitHub, href: https://github.com/MaxHuber888/Kovoka }
+
+- id: zimatode
+  title: Zimatode
+  subtitle: Music visualizer
+  description: 'Physics-based program generating simulations that respond to audio.'
+  color: pink
+  date: '2024-10-21'
+  status: archived
+  tech: [Python, Pygame, Librosa, Physics Simulation]
+  links:
+    - { label: GitHub, href: https://github.com/MaxHuber888/zimatode }
+
+- id: resume-me
+  title: resu.me
+  subtitle: Modular resume builder
+  description: Modular resume creation tool with AI-powered formatting suggestions. Built with intuitive UX and modular workflow for content curation.
+  color: blue
+  date: '2024-12-01'
+  status: archived
+  tech: [TypeScript, Next.js, Firebase, shadcn/ui]
+  links:
+    - { label: GitHub, href: https://github.com/MaxHuber888/resume-me }
+
+- id: trucanvas
+  title: TruCanvas
+  subtitle: Collaborative drawing canvas
+  description: Real-time collaborative drawing canvas with brushes, colors, and filters. Networking implemented from scratch in DLang.
+  color: amber
+  date: '2024-04-08'
+  status: archived
+  tech: [D, SDL2, Networking]
+  links:
+    - { label: GitHub, href: https://github.com/MaxHuber888/TruCanvas }
+# Game Dev
+
+# Visual Art
