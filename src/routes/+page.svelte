@@ -11,18 +11,21 @@
 
 	<div class="space-y-4 text-sm leading-relaxed">
 		<p>
-			I build machine learning systems that move beyond benchmarks and into the real world. My work
-			focuses on applied AI — taking models from research to production, designing pipelines that
-			are robust and maintainable, and measuring success by the problems actually solved.
+			I am an AI/ML engineer focused on building systems with clear real-world impact. My work is
+			guided by a simple principle: effective technology should solve hard problems and make
+			people's lives tangibly better.
 		</p>
 		<p>
-			I care deeply about the gap between what AI systems can do in a paper and what they can do
-			reliably at scale. That means thinking hard about data quality, evaluation, deployment, and
-			the feedback loops between users and models.
+			I recently completed a Master's degree in AI at Northeastern University, where I also did
+			computational neuroscience research at the Movement Neuroscience Lab, modeling muscle
+			synergies with network-theoretic methods to improve stroke recovery outcomes. Before that I
+			built an open-source LLM agent framework at Blorm, an LLM-powered RAG chatbot and ETL
+			pipelines as a full-stack co-op at CollX, and NLP and network analysis tooling as a research
+			assistant at the Business &amp; Collective Intelligence Lab.
 		</p>
 		<p>
-			This site indexes the projects I've shipped and mirrors recent essays from my Substack, where
-			I write about AI engineering, systems thinking, and whatever else captures my attention.
+			This site indexes the projects I've built and mirrors recent write-ups from my Substack, where
+			I walk through my deep learning projects in detail.
 		</p>
 	</div>
 
@@ -35,7 +38,7 @@
 			</li>
 			<li class="flex items-baseline gap-3">
 				<Badge variant="secondary" class="text-[10px] uppercase">soon</Badge>
-				<span class="text-muted-foreground">Placeholder. Replace with whatever's next.</span>
+				<span class="text-muted-foreground">Writing up recent projects as Substack posts.</span>
 			</li>
 		</ul>
 	</section>

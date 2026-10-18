@@ -109,7 +109,7 @@
   status: archived
   tech: [TypeScript, Next.js, Firebase, shadcn/ui]
   links:
-    - { label: GitHub, href: https://github.com/MaxHuber888/resume-me }
+    - { label: Live site, href: https://resudotme.vercel.app }
 
 - id: trucanvas
   title: TruCanvas
