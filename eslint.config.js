@@ -12,6 +12,7 @@ const gitignorePath = path.resolve(import.meta.dirname, '.gitignore');
 
 export default defineConfig(
 	includeIgnoreFile(gitignorePath),
+	{ ignores: ['scripts/**'] }, // one-off CJS utilities, not part of the app
 	js.configs.recommended,
 	ts.configs.recommended,
 	svelte.configs.recommended,
